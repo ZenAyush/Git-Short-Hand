@@ -46,3 +46,9 @@ git remote set-url origin git@github.com:username/new-repo.git
 ```
 
 ---
+
+The "git remote -v" command is used to show a list of the remote repositories associated with your local Git repository. It will show the name of each remote repository (usually "origin"), along with its URL.
+
+```bash
+git remote -v
+```
