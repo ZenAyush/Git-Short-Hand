@@ -31,7 +31,9 @@ The "git push -u origin master" command is used to push the changes you made in 
 git push -u origin master
 ```
 
+The "git remote set-url origin" command is used to change the URL of the remote repository named "origin". In this specific case, the command is used to change the URL of the "origin" remote repository to a new repository located at git@github.com:username/new-repo.git.
+
 ```bash
-git remote set-url origin git@github.com:yourgithub/repo.git
+git remote set-url origin git@github.com:username/new-repo.git
 ```
 
