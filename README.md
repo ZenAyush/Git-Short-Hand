@@ -30,3 +30,8 @@ The "git push -u origin master" command is used to push the changes you made in 
 ```bash
 git push -u origin master
 ```
+
+```bash
+git remote set-url origin git@github.com:yourgithub/repo.git
+```
+
