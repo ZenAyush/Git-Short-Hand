@@ -29,11 +29,15 @@ The "git commit -m" command is used to create a new commit in your Git repositor
 git commit -m "a commit msg"
 ```
 
+---
+
 The "git push -u origin master" command is used to push the changes you made in your local Git repository to the remote repository on the "master" branch. The "-u" flag is used to set the upstream branch for the current branch. This means that in the future, when you run the "git push" command without specifying a branch, Git will automatically push changes to the upstream branch (in this case, "origin master").
 
 ```bash
 git push -u origin master
 ```
+
+---
 
 The "git remote set-url origin" command is used to change the URL of the remote repository named "origin". In this specific case, the command is used to change the URL of the "origin" remote repository to a new repository located at git@github.com:username/new-repo.git.
 
@@ -41,3 +45,4 @@ The "git remote set-url origin" command is used to change the URL of the remote 
 git remote set-url origin git@github.com:username/new-repo.git
 ```
 
+---
